@@ -24,7 +24,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 12 - Selector Specificity
 * [x] CSS Tutorial For Beginners 13 - The Important Declaration
 * [x] CSS Tutorial For Beginners 14 - Targeting Multiple Elements
-* [ ] CSS Tutorial For Beginners 15 - Descendant Selectors
+* [x] CSS Tutorial For Beginners 15 - Descendant Selectors
 * [ ] CSS Tutorial For Beginners 16 - Child Selectors
 * [ ] CSS Tutorial For Beginners 17 - Adjacent Selectors
 * [ ] CSS Tutorial For Beginners 18 - Attribute Selectors

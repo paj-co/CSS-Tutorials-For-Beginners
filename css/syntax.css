@@ -1,6 +1,9 @@
-p, span, a, li{
-    color: red;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: "Padauk Book";
+/* Descendant - who is the children, grand children gran grand...
+ but don't be to specific*/
+#main-content #sub-content p{
+    color: green;
+}
+/* You can do above just by:*/
+#sub-content p{
+    color: green;
 }
