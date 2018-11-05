@@ -1,8 +1,23 @@
-/* If there are 2 the same rules, the bottom one wins */
-/*If there is more specific rule, that one wins*/
-body span {
+/* here comes a browser:
+a{
+    color: blue;
+    text-decoration: underline;
+}
+So even that <a> is in a body tag, we have to specify <a> tag precisely
+ */
+body{
+    color: red;
+}
+
+div{
     color: blue;
 }
-span {
-    color: red;
+
+p{
+    color: green;
+}
+
+a{
+    color: yellow;
+    text-decoration: underline;
 }

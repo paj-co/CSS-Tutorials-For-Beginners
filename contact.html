@@ -5,11 +5,6 @@
         <title>CSS For Beginners</title>
         <link href="css/syntax.css" type="text/css" rel="stylesheet">
 
-        <style>
-            span{
-                color: purple;
-            }
-        </style>
     </head>
 
     <body>
@@ -21,16 +16,19 @@
 
         <h2 id="content-header">Content</h2>
 
-        <p>Hello there ninjas! Contact Us below.</p>
-        <p>Aren't paragraph's cool?</p>
+        <div>
+            <p>Hello there ninjas! Contact Us below.</p>
+            <p>Aren't paragraph's cool?</p>
+        </div>
 
-        <a href="https://duckduckgo.com">DuckDuckGo</a>
-
-        <span style="color: green;">Yo, I'm a span tag</span>
-
+        <span>Yo, I'm a span tag</span>
         <span class="deck">Yo, I'm a span tag too</span>
         <span class="deck">This is a deck of spans</span>
         <span class="deck">I like span deck</span>
+
+        <!-- Even if we specified that everything in body should be red, here
+        comes a default browser css style for <a> tag - which is blue-->
+        <a href="#">I'm a spanner</a>
 
     </body>
 
