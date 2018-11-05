@@ -1,16 +1,8 @@
-#main-content p{
-    color: red;
-}
-
+/* The declaration that can’t be overwritten by any other */
 p{
-    color: black;
+    color: red !important;
 }
 
-.test{
-    color: green;
-}
-/* it is not red after #main-content, because strong inherits red by default
- but, there is no weigh, because it is targeting <p> not <strong>*/
-strong{
+#main-content p{
     color: green;
 }
