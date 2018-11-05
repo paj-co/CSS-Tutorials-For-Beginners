@@ -1,4 +1,25 @@
+/***********************************
+*
+*Author: paj-co
+*Date: 5.11.2018
+*
+************************************/
+
+
+/* Style all <p> tags
+Use comments to make different sections*/
 p{
     font-size: 18px;
     color: red;
+}
+
+/* Comment to disable some rules for some time
+#header p{
+    font-size: 24px;
+}
+*/
+
+/* Style all header tag */
+h1{
+    font-size: 44px;
 }
