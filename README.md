@@ -17,7 +17,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 05 - Inline & Embedded Styles
 * [x] CSS Tutorial For Beginners 06 - External Style Sheets
 * [x] CSS Tutorial For Beginners 07 - CSS Comments and Where to Use Them
-* [ ] CSS Tutorial For Beginners 08 - Targeting Elements with CSS
+* [x] CSS Tutorial For Beginners 08 - Targeting Elements with CSS
 * [ ] CSS Tutorial For Beginners 09 - Targeting Classes and ID's
 * [ ] CSS Tutorial For Beginners 10 - CSS Conflicts & the Cascade
 * [ ] CSS Tutorial For Beginners 11 - Inheritance
