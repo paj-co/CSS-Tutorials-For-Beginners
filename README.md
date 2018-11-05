@@ -14,7 +14,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 02 - What is CSS?
 * [x] CSS Tutorial For Beginners 03 - Default Browser Styles
 * [x] CSS Tutorial For Beginners 04 - Basic CSS Syntax
-* [ ] CSS Tutorial For Beginners 05 - Inline & Embedded Styles
+* [x] CSS Tutorial For Beginners 05 - Inline & Embedded Styles
 * [ ] CSS Tutorial For Beginners 06 - External Style Sheets
 * [ ] CSS Tutorial For Beginners 07 - CSS Comments and Where to Use Them
 * [ ] CSS Tutorial For Beginners 08 - Targeting Elements with CSS
