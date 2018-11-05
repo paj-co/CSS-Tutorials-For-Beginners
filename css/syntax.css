@@ -1,9 +1,6 @@
-/* Descendant - who is the children, grand children gran grand...
- but don't be to specific*/
-#main-content #sub-content p{
+/* When you want to style only children end not any grandchildren
+ - the elements that are nested deeper - use right-angle bracket ">" */
+#main-content > p{
     color: green;
 }
-/* You can do above just by:*/
-#sub-content p{
-    color: green;
-}
+
