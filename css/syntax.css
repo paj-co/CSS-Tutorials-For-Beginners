@@ -1,23 +1,16 @@
-/* here comes a browser:
-a{
-    color: blue;
-    text-decoration: underline;
-}
-So even that <a> is in a body tag, we have to specify <a> tag precisely
- */
-body{
+#main-content p{
     color: red;
 }
 
-div{
-    color: blue;
+p{
+    color: black;
 }
 
-p{
+.test{
     color: green;
 }
-
-a{
-    color: yellow;
-    text-decoration: underline;
+/* it is not red after #main-content, because strong inherits red by default
+ but, there is no weigh, because it is targeting <p> not <strong>*/
+strong{
+    color: green;
 }
