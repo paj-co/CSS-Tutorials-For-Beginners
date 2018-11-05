@@ -1,19 +1,8 @@
-/* TARGETING ELEMENTS / TAGS */
-/* class or id's css overwrites tag css style */
-h2{
-    font-size:  24px;
-}
-
-#content-header{
-    font-size: 18px;
-    color: red;
-}
-
-span{
-    display: block;
+/* If there are 2 the same rules, the bottom one wins */
+/*If there is more specific rule, that one wins*/
+body span {
     color: blue;
 }
-
-.deck{
-    color:red;
+span {
+    color: red;
 }
