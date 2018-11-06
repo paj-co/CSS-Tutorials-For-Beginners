@@ -1,6 +1,6 @@
-/* When you want to style only children end not any grandchildren
- - the elements that are nested deeper - use right-angle bracket ">" */
-#main-content > p{
+/* Adjacent selector select element that comes directly after another element*/
+/* style all <p> that comes just after all descendant h2 from #all-articles */
+#all-articles h2 + p{
     color: green;
 }
 
