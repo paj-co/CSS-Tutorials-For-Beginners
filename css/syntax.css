@@ -1,18 +1,22 @@
-li:nth-child(1), li:nth-child(7){
-    font-weight: bold;
+/* So list of elements are all of elements that are children to ex.
+ <div> tag ex. parent <div> and children: #1<h1>, #2<article>, #3<hr>,
+ #4<h2>, #5<a>, #6<article>
+ so by the css under we can style article by using numbers 2 and 6*/
+article:nth-child(2){
+    background: grey;
 }
-li:nth-child(even){
-    background: gray;
+/* If you want to style just <articles> and don't want to mess around
+ with other types*/
+article:nth-of-type(2){
+    /*it will target the second article, the css above targets the
+    2nd child which is the first article*/
+    background: goldenrod;
 }
-li:nth-child(odd){
-    background: darkorange;
+article:nth-of-type(odd){
+    color: white;
+    background: brown;
 }
-/* n starts with 0, so 2*0+1=1
- then next is 1, so 2*1+1=3
- then next is 2, so 2*2+1=5
- then next is 3, so 2*3+1=7
- and so on, n end is number of items in this case in list
- so if it would be 3n it is like selecting every 3rd item*/
-li:nth-child(2n + 1){
-    color:red;
+article:nth-of-type(2n+1){
+    color: #301f33;
+    background: #d2437d;
 }
