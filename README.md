@@ -27,7 +27,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 15 - Descendant Selectors
 * [x] CSS Tutorial For Beginners 16 - Child Selectors
 * [x] CSS Tutorial For Beginners 17 - Adjacent Selectors
-* [ ] CSS Tutorial For Beginners 18 - Attribute Selectors
+* [x] CSS Tutorial For Beginners 18 - Attribute Selectors
 * [ ] CSS Tutorial For Beginners 19 - Pseudo Selectors
 * [ ] CSS Tutorial For Beginners 20 - Hover, Active & Visited Effects
 * [ ] CSS Tutorial For Beginners 21 - First & Last Child Selectors
