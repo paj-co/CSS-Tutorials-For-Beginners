@@ -1,34 +1,10 @@
-/* We selects all span that has a class attribute */
-/*
-span[class]{
-    color: green;
+/* general example of Pseudo Selectors
+.class:keyword{
+    color: red;
 }*/
-div[id]{
-    background: goldenrod;
-}
-a[title]{
-    color:red;
-}
-a[title="Search engine"]{
-    color: deeppink;
-}
-span[class="deck"]{
-    /* this will match only a span with attribute "deck" if
-      there is a span with more classes, those will not be styled
-      they have to be exactly the same + case sensitive*/
-    color: green;
-}
-/* You can select after one class name tags that has more classes by: "~"
- it mast be list with space as separator like
-  <span class="deck random-class-name">Yo, I'm a span tag too</span>*/
-span[class~="deck"]{
-    color: green;
-}
-/* Style only pdf links, $ - means "that ends with" */
-a[href$="pdf"]{
+a:hover{
     color: orangered;
 }
-/* Style only links that start with ... ^ - means "that start with ..." */
-a[href^="https"]{
-    color: black;
+#main-content:hover{
+    background: green;
 }
