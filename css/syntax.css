@@ -1,14 +1,6 @@
-/* general example of Pseudo Selectors
-.class:keyword{
-    color: red;
-}*/
-/* order: visited, hover, active */
-a:visited{
-    color:grey;
+article p:first-child{
+    font-weight: bold;
 }
-a:hover{
+article p:last-child{
     color: red;
-}
-a:active{
-    color:green;
 }
