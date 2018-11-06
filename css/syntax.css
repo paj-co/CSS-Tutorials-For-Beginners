@@ -2,9 +2,13 @@
 .class:keyword{
     color: red;
 }*/
-a:hover{
-    color: orangered;
+/* order: visited, hover, active */
+a:visited{
+    color:grey;
 }
-#main-content:hover{
-    background: green;
+a:hover{
+    color: red;
+}
+a:active{
+    color:green;
 }
