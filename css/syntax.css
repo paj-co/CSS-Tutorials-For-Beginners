@@ -1,6 +1,8 @@
-article p:first-child{
+/* When you have many elements, not just <p> and want to bold 1st
+and color red last, when you can't use first-child and last-child */
+article p:first-of-type{
     font-weight: bold;
 }
-article p:last-child{
+article p:last-of-type{
     color: red;
 }

@@ -31,7 +31,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 19 - Pseudo Selectors
 * [x] CSS Tutorial For Beginners 20 - Hover, Active & Visited Effects
 * [x] CSS Tutorial For Beginners 21 - First & Last Child Selectors
-* [ ] CSS Tutorial For Beginners 22 - First & Last of Type Selectors
+* [x] CSS Tutorial For Beginners 22 - First & Last of Type Selectors
 * [ ] CSS Tutorial For Beginners 23 - nth Child Selectors
 * [ ] CSS Tutorial For Beginners 24 - nth of Type Selectors
 * [ ] CSS Tutorial For Beginners 25 - Combining Selectors
