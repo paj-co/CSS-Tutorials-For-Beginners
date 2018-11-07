@@ -49,7 +49,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 37 - Margins
 * [x] CSS Tutorial For Beginners 38 - Padding
 * [x] CSS Tutorial For Beginners 39 - Padding & Margin Long-hand
-* [ ] CSS Tutorial For Beginners 40 - Borders
+* [x] CSS Tutorial For Beginners 40 - Borders
 * [ ] CSS Tutorial For Beginners 41 - Block-level Elements
 * [ ] CSS Tutorial For Beginners 42 - Width & Height
 * [ ] CSS Tutorial For Beginners 43 - Rounded Corners
