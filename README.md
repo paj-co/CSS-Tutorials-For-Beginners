@@ -41,7 +41,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 29 - Text Decoration
 * [x] CSS Tutorial For Beginners 30 - Font Weight
 * [x] CSS Tutorial For Beginners 31 - Text Transform
-* [ ] CSS Tutorial For Beginners 32 - Text Colour
+* [x] CSS Tutorial For Beginners 32 - Text Colour
 * [ ] CSS Tutorial For Beginners 33 - Styling Links
 * [ ] CSS Tutorial For Beginners 34 - Letter Spacing & Line Height
 * [ ] CSS Tutorial For Beginners 35 - Paragraph Spacing

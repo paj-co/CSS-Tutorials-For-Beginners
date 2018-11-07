@@ -1,12 +1,9 @@
-#header p{
-    text-transform: capitalize;
+#header h1{
+    color: chocolate;
 }
-/* capitalize - every word start with capital letter,
-full-width, inherit, lowercase, none, uppercase */
-body{
-    text-transform: uppercase;
+#header h2{
+    color: #567398;
 }
-body > p{
-   text-transform: none;/* It will not  inherit uppercase
-    after body*/
+#header{
+    background-color: aquamarine;
 }
