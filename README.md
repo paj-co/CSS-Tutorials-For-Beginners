@@ -35,7 +35,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 23 - nth Child Selectors
 * [x] CSS Tutorial For Beginners 24 - nth of Type Selectors
 * [x] CSS Tutorial For Beginners 25 - Combining Selectors
-* [ ] CSS Tutorial For Beginners 26 - The Universal Selector
+* [x] CSS Tutorial For Beginners 26 - The Universal Selector
 * [ ] CSS Tutorial For Beginners 27 - Font Size
 * [ ] CSS Tutorial For Beginners 28 - Font Family
 * [ ] CSS Tutorial For Beginners 29 - Text Decoration
