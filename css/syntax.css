@@ -1,6 +1,10 @@
-/* font-family if we specify font-family browser will
- search user computer for arial to display site content
- if not it will display in default style ex. Times New Roman*/
-article h2, article p{
-    font-family: arial, helvetica, sans-serif;
+article{
+    text-decoration: overline;
 }
+/* because <a> is descendant of <article> and has its own
+ default styling we choose to inherit after <article>*/
+a{
+    text-decoration: inherit;
+}
+/* text-decoration:
+inherit, line-through, none, overline, underline */
