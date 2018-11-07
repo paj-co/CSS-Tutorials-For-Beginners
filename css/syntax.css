@@ -1,35 +1,38 @@
-/*Border: width; style; color; */
-.box {
-    padding: 20px;
-    margin: 20px;
-    float: left;
-/*all borders: border: 10px solid blue;
-only top: border-top: 10px solid blue;
- or border-top-width: 10px;
-    border-top-style: solid;
-    border-top-color: blue;*/
+/*There are 2 types of elements:
+- block level (stack one on another) ex. <div>, <p>;
+- Inline elements (one NEXT to another - from left to right)
+ex. <span> or <a>*/
+.block{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
 }
-.dashed{
-    border: 10px dashed blue;
+.inline{
+/*Inline elements can't be controlled by the box model properties
+vertically - margin is added only to the left and right*/
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #000;
+    /*To make block element from inline:
+    display: block;*/
+    display: inline-block; /*They have inline as well as block
+    properties - now they have top & bottom margin too*/
 }
-.dotted{
-    border: 10px dotted blue;
+/* List of block & inline elements
+https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php
+*/
+a{/*Styling links in top navigation menu bar*/
+    padding: 10px;
+    margin: 10px;
+    background-color: #4f88ff;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 1px solid #312055;
+    display: inline-block;
 }
-.double{
-    border: 10px double blue;
-}
-.groove{
-    border: 10px groove blue;
-}
-.inset{
-    border: 10px inset blue;
-}
-.outset{
-    border: 10px outset blue;
-}
-.ridge{
-    border: 10px ridge blue;
-}
-.solid{
-    border: 10px solid blue;
+a:hover{
+    background-color: #bad3d5;
+    color: #312055;
 }
