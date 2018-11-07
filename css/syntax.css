@@ -1,13 +1,12 @@
-h1{
-    font-weight: normal;
-}/* bold, bolder, inherit, lighter, normal
- numbers: light:100,200,300; normal:400,500,600; bold:700,800,900*/
-p:nth-of-type(2){
-    font-weight: normal;
+#header p{
+    text-transform: capitalize;
 }
-p{
-    font-weight: lighter;
-    font-family: Ubuntu;
+/* capitalize - every word start with capital letter,
+full-width, inherit, lowercase, none, uppercase */
+body{
+    text-transform: uppercase;
 }
-/* Why bolder and lighter don't make any visual changes?
-Because the default font-family doesn't have this options*/
+body > p{
+   text-transform: none;/* It will not  inherit uppercase
+    after body*/
+}
