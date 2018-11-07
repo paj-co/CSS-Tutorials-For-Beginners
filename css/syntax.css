@@ -1,15 +1,18 @@
-/* Universal selector - selects every <tag> - one rule for every tag
- if we would use body, the <a> tag - link will be still blue because of its
- default styling - it is selecting each tag directly, body just passes on
- to its children and descendants*/
-*{
-    margin: 0;
-    padding: 0;
-    color: black;
+/* font-size: absolute: px; relative: em, %;
+Relative are great for responsive design*/
+h1 {
+    font-size: 48px;
 }
-/* Universal selector is used to reset default browser style */
-/* and because of cascade CSS feature, we reset first and than we
- can add styles*/
-a{
-    color: green;
+article{
+    font-size: 16px;
+}
+/* it takes font-size of article by which h2 inherit and
+multiply it by 3 - 16px*3=48px;
+ */
+article h2{
+    font-size: 3em;
+}
+article p{
+    /*It inherits 16px and multiply it by 50%=8px*/
+    font-size: 50%;
 }
