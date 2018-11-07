@@ -1,10 +1,13 @@
-article{
-    text-decoration: overline;
+h1{
+    font-weight: normal;
+}/* bold, bolder, inherit, lighter, normal
+ numbers: light:100,200,300; normal:400,500,600; bold:700,800,900*/
+p:nth-of-type(2){
+    font-weight: normal;
 }
-/* because <a> is descendant of <article> and has its own
- default styling we choose to inherit after <article>*/
-a{
-    text-decoration: inherit;
+p{
+    font-weight: lighter;
+    font-family: Ubuntu;
 }
-/* text-decoration:
-inherit, line-through, none, overline, underline */
+/* Why bolder and lighter don't make any visual changes?
+Because the default font-family doesn't have this options*/
