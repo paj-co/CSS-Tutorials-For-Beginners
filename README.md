@@ -37,7 +37,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 25 - Combining Selectors
 * [x] CSS Tutorial For Beginners 26 - The Universal Selector
 * [x] CSS Tutorial For Beginners 27 - Font Size
-* [ ] CSS Tutorial For Beginners 28 - Font Family
+* [x] CSS Tutorial For Beginners 28 - Font Family
 * [ ] CSS Tutorial For Beginners 29 - Text Decoration
 * [ ] CSS Tutorial For Beginners 30 - Font Weight
 * [ ] CSS Tutorial For Beginners 31 - Text Transform

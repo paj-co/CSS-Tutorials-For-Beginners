@@ -1,18 +1,6 @@
-/* font-size: absolute: px; relative: em, %;
-Relative are great for responsive design*/
-h1 {
-    font-size: 48px;
-}
-article{
-    font-size: 16px;
-}
-/* it takes font-size of article by which h2 inherit and
-multiply it by 3 - 16px*3=48px;
- */
-article h2{
-    font-size: 3em;
-}
-article p{
-    /*It inherits 16px and multiply it by 50%=8px*/
-    font-size: 50%;
+/* font-family if we specify font-family browser will
+ search user computer for arial to display site content
+ if not it will display in default style ex. Times New Roman*/
+article h2, article p{
+    font-family: arial, helvetica, sans-serif;
 }
