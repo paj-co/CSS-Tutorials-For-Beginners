@@ -1,21 +1,9 @@
-
 .box {
-    margin: 30px 20px 15px 5px; /*Starts from the top and go clock wise*/
-  /*margin: 30px 15px; - top & bottom 30px, left and right 15px*/
-  /*margin: 30px 15px 20px; - top 30px, left and right 15px, bottom 20px*/
-    padding: 30px;
+    margin: 30px;
+    padding: 30px 20px 10px 5px /* we can do everything like in margin
+    padding: 30px 20px;
+    padding: 30px 15px 5px;
+    padding: 30px 20%; - there will be a lot  of space right & left
+     inside our box*/
     border: 1px solid #000;
-}
-
-.box{
-    margin: 30px auto; /*top & bottom 30px; left & right auto (center)*/
-    padding: 30px;
-    border: 1px solid #000;
-    width: 300px;
-}
-.box {
-    margin: 30px 25%; /*no padding, so the blue box has 50% ex. 600px
-    and automatically left and right margin has 300px each*/
-    border: 1px solid #000;
-    width: 50%;
 }
