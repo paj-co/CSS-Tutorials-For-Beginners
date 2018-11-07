@@ -1,21 +1,6 @@
-/* L e t t e r - Letter spacing
- Words   being   spaced - Word spacing
-
-
- Line height
-
-
- line height*/
 p{
-    font-size: 12px;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    line-height: 24px; /*It's line height not gap, if the
-    font size is 12px, and line-height is 12px, we will not
-    see any change between the lines*/
-}
-p{
-    font-size: 12px;
-    line-height: 1.5em; /* (1,5*font-size) */
-    letter-spacing: 0.2em;
+    font-size: 14px;
+    line-height: 2em;
+    margin-bottom: 32px;/*There will be 32px of space before
+    next <tag> will appear*/
 }
