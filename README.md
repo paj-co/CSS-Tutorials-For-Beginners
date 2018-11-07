@@ -42,7 +42,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 30 - Font Weight
 * [x] CSS Tutorial For Beginners 31 - Text Transform
 * [x] CSS Tutorial For Beginners 32 - Text Colour
-* [ ] CSS Tutorial For Beginners 33 - Styling Links
+* [x] CSS Tutorial For Beginners 33 - Styling Links
 * [ ] CSS Tutorial For Beginners 34 - Letter Spacing & Line Height
 * [ ] CSS Tutorial For Beginners 35 - Paragraph Spacing
 * [ ] CSS Tutorial For Beginners 36 - The Box Model
