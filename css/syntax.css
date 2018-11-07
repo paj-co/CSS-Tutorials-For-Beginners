@@ -1,38 +1,15 @@
-/*There are 2 types of elements:
-- block level (stack one on another) ex. <div>, <p>;
-- Inline elements (one NEXT to another - from left to right)
-ex. <span> or <a>*/
-.block{
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #000;
+#main-content div{
+    background-color: #ccc;
+    margin: 0 0 20px 0;
 }
-.inline{
-/*Inline elements can't be controlled by the box model properties
-vertically - margin is added only to the left and right*/
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #000;
-    /*To make block element from inline:
-    display: block;*/
-    display: inline-block; /*They have inline as well as block
-    properties - now they have top & bottom margin too*/
+.static-width{
+    width: 300px;
+    height: 100px;
 }
-/* List of block & inline elements
-https://www.w3resource.com/html/HTML-block-level-and-inline-elements.php
-*/
-a{/*Styling links in top navigation menu bar*/
-    padding: 10px;
-    margin: 10px;
-    background-color: #4f88ff;
-    color: white;
-    border-radius: 10px;
-    font-size: 16px;
-    text-decoration: none;
-    border: 1px solid #312055;
+.percentage-width{
+    width: 70%;
+}
+.inline-block{
+    width: 40%;
     display: inline-block;
-}
-a:hover{
-    background-color: #bad3d5;
-    color: #312055;
 }

@@ -51,7 +51,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 39 - Padding & Margin Long-hand
 * [x] CSS Tutorial For Beginners 40 - Borders
 * [x] CSS Tutorial For Beginners 41 - Block-level Elements
-* [ ] CSS Tutorial For Beginners 42 - Width & Height
+* [x] CSS Tutorial For Beginners 42 - Width & Height
 * [ ] CSS Tutorial For Beginners 43 - Rounded Corners
 * [ ] CSS Tutorial For Beginners 44 - Backgrounds
 * [ ] CSS Tutorial For Beginners 45 - Background Shorthand
