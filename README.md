@@ -45,7 +45,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 33 - Styling Links
 * [x] CSS Tutorial For Beginners 34 - Letter Spacing & Line Height
 * [x] CSS Tutorial For Beginners 35 - Paragraph Spacing
-* [ ] CSS Tutorial For Beginners 36 - The Box Model
+* [x] CSS Tutorial For Beginners 36 - The Box Model
 * [ ] CSS Tutorial For Beginners 37 - Margins
 * [ ] CSS Tutorial For Beginners 38 - Padding
 * [ ] CSS Tutorial For Beginners 39 - Padding & Margin Long-hand

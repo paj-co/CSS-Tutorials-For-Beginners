@@ -1,6 +1,22 @@
-p{
-    font-size: 14px;
-    line-height: 2em;
-    margin-bottom: 32px;/*There will be 32px of space before
-    next <tag> will appear*/
+/*The Box Model
+Element - <tag> ex. <p> that has:
+1. width & height
+2. padding - a space inside element from the edge direction
+to the middle
+3. border with it thickness
+4. margin - space between other elements on the page*/
+.box{
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #000;
+    width: 400px;/*When we specified this, we specify the inside
+    little blue box, and than, on top of that comes padding,
+    border and margin, so if you give it 100% element, can
+    break the width of the element that is containing it ex. body or div
+    so with width=400px it is 30+1+30+400+30+1+30=522px*/
+    height: 200px;
 }
+/*vertical margin collapse - when we have 2 elements styled
+as above, one of top of another and we have 30px of space
+between them not 60px; if there are 2 different values
+higher is taken and lower is abandoned*/
