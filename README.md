@@ -53,9 +53,9 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 41 - Block-level Elements
 * [x] CSS Tutorial For Beginners 42 - Width & Height
 * [x] CSS Tutorial For Beginners 43 - Rounded Corners
-* [ ] CSS Tutorial For Beginners 44 - Backgrounds
-* [ ] CSS Tutorial For Beginners 45 - Background Shorthand
-* [ ] CSS Tutorial For Beginners 46 - Multiple Backgrounds
+* [x] CSS Tutorial For Beginners 44 - Backgrounds
+* [x] CSS Tutorial For Beginners 45 - Background Shorthand
+* [x] CSS Tutorial For Beginners 46 - Multiple Backgrounds
 * [ ] CSS Tutorial For Beginners 47 - Color
 * [ ] CSS Tutorial For Beginners 48 - Opacity
 * [ ] CSS Tutorial For Beginners 49 - CSS Gradients

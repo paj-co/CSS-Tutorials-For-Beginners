@@ -1,12 +1,15 @@
-/*Shorthand version of background: 1. url 2. no-repeat 3. position/size
- 4. color*/
-.static-width {
-    width: 300px;
+/*Multiple backgrounds: first url on top, second under, coma ',' between
+them
+when we specify longhand values if we give two different values for each
+image, we demarcate it by coma*/
+#banner{
+    background-color: #606060;
+    width: 100%;
     height: 300px;
-    background: url("../images/download-tips.png") no-repeat top center/200px #ffc748;
-    /*The Net Ninja sets this separately:
-     background-color: #ffc78; - put it under main background property,
-     because it is cascade, and url will overwrite the background color,
-     and in this situation will not
-     background-size: 200px;*/
+    background: url("../images/download-tips.png"), url("../images/warty-final-ubuntu.png");
+    background-repeat: no-repeat, no-repeat;/*Because we apply the same
+    value to both images we don't have to repeat it, if there would be
+    two different value we can separate it by coma*/
+    background-position: center, top left;
+    background-size: 150px, 100%;
 }
