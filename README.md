@@ -57,7 +57,7 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 45 - Background Shorthand
 * [x] CSS Tutorial For Beginners 46 - Multiple Backgrounds
 * [x] CSS Tutorial For Beginners 47 - Color
-* [ ] CSS Tutorial For Beginners 48 - Opacity
+* [x] CSS Tutorial For Beginners 48 - Opacity
 * [ ] CSS Tutorial For Beginners 49 - CSS Gradients
 * [ ] CSS Tutorial For Beginners 50 - Box Shadow
 * [ ] CSS Tutorial For Beginners 51 - Browser Support
