@@ -1,38 +1,30 @@
-#circle{
-    width:400px;
-    height: 400px;
-    position: absolute;
-    background: rgb(200, 200, 100);
-    border-radius: 50%;
-    top: 50px;
-    left: 50px;
-    opacity: 1; /*Values: 0-1, where 0=totally transparent*/
+.button{
+    display: block;
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #77aaaa;
+    font-family: arial, helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
     text-align: center;
-    line-height: 400px;
+    border-radius: 4px;
+    background: #aadddd;/*There is 2 times background because the last one
+    overwrites first one. So if a browser doesn't support gradient, than the
+    normal color will be displayed*/
+  /*background: linear-gradient(top, #aadddd 0%, #77aaaa 100%); */
+    /*1. from which direction gradient will go, color to start & from which
+    position to start: 0%=from the straight top!, than the 2nd color & position to finish*/
+    /*VENDOR PREFIX*/
+    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: -ms-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
 }
-#circle-2{
-    width:400px;
-    height: 400px;
-    position: absolute;
-    background: rgb(200, 100, 200);
-    border-radius: 50%;
-    top: 250px;
-    left: 150px;
-    opacity: 0.3;
-    text-align: center;
-    line-height: 400px;
-}
-#circle-3{
-    width:400px;
-    height: 400px;
-    position: absolute;
-    background: rgba(100, 200, 200, 0.1); /*If we add Alpha channel - we control opacity
-    we change rgb to rgba, add 4th value for opacity, and we have text in full color -
-    it is not opacity*/
-    border-radius: 50%;
-    top: 50px;
-    left: 250px;
-  /*opacity: 0.1;*/
-    text-align: center;
-    line-height: 400px;
+.button:hover{
+    cursor: pointer;
+    background: #77aaaa;
+    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
+    background: -ms-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
 }
