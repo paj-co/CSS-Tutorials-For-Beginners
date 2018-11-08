@@ -1,25 +1,23 @@
-#main-content div{
-    background-color: #ccc;
-    margin: 0 0 20px 0;
-}
+/*background image replicate itself by default to the left
+and to the bottom*/
 .static-width{
     width: 300px;
-    height: 100px;
-    border-radius: 10px;
+    height: 300px;
+    background-color: #606060;
+    /*background-image: url("https://ubuntu-mate.org/images/logos/raspberry-pi.png");*/
+    background-image: url("../images/download-tips.png");
+    background-repeat: no-repeat;
+    background-position: center; /*top center; bottom left
+    you can give value in % so 20% will center the image
+     horizontally and will place its left edge 20% from the
+     left side. If we give it 80% it will place the image
+     20% from the right edge inside of element
+     if we give it value: 20% 10% it will place image left edge
+     20% from the left and 10% from the bottom
+     We can also give value in pixels*/
+    background-size: 200px;
 }
-.percentage-width{
-    width: 70%;
-    height: 50px;
-    border-radius: 5px 10px 20px 40px;
-    /* starts with top-left corner and clock wise*/
-  /*border-radius: 10px 20px; top-left and bottom-right are
-  the 10 px, the other two 20px */
-}
-.inline-block{
-    /*To make a circle*/
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;/* 50px only when it is 50% of
-    width: 100px & height: 100px -- the 50% is BETTER!*/
-    display: inline-block;
-}
+/*
+https://ubuntu-mate.org/images/logos/raspberry-pi.png
+/home/przemek/Desktop/HTML_CSS_resousce/Dell_ubuntu.png
+*/
