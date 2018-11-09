@@ -60,6 +60,6 @@ Here is my tutorial progress:
 * [x] CSS Tutorial For Beginners 48 - Opacity
 * [x] CSS Tutorial For Beginners 49 - CSS Gradients
 * [x] CSS Tutorial For Beginners 50 - Box Shadow
-* [ ] CSS Tutorial For Beginners 51 - Browser Support
+* [x] CSS Tutorial For Beginners 51 - Browser Support
 * [ ] CSS Tutorial For Beginners 52 - CSS Website Build Part 1
 * [ ] CSS Tutorial For Beginners 53 - CSS Website Build Part 2

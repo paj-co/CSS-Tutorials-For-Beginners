@@ -1,30 +1,13 @@
+/*Fall back option*/
 .button{
-    display: block;
-    width: 100px;
-    padding: 12px;
-    border: 1px solid #77aaaa;
-    font-family: arial, helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
-    border-radius: 4px;
-    background: #aadddd;
-    background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: #aadddd; /*If any browser doesn't support any rule
+     we use the cascade to create option that for sure iw will
+     understand ex. background color is backup option for linnear-gradient*/
     background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
     background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
-    /*1. 2px to the right 2. 2px under the bottom 3. how blurry
-    it should be (low value not much 4. in what distance the blur
-    effect*/
+    /* https://caniuse.com/ */
 }
-.button:hover{
-    cursor: pointer;
-    background: #77aaaa;
-    background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
-    background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
-    background: -ms-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
-}/*
-https://www.cssmatic.com/box-shadow
-*/
+/*For Vendor prefix go to: http://pleeease.io/play/
+   FIREFOX understands -webkit-linear-gradient()
+   For features in browser, fallback options a JS library
+   that (?) enables you some options https://modernizr.com/*/
