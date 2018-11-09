@@ -10,16 +10,14 @@
     font-size: 14px;
     text-align: center;
     border-radius: 4px;
-    background: #aadddd;/*There is 2 times background because the last one
-    overwrites first one. So if a browser doesn't support gradient, than the
-    normal color will be displayed*/
-  /*background: linear-gradient(top, #aadddd 0%, #77aaaa 100%); */
-    /*1. from which direction gradient will go, color to start & from which
-    position to start: 0%=from the straight top!, than the 2nd color & position to finish*/
-    /*VENDOR PREFIX*/
+    background: #aadddd;
     background: -moz-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
     background: -webkit-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
-    background: -ms-linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    background: linear-gradient(top, #aadddd 0%, #77aaaa 100%);
+    box-shadow: 2px 2px 4px 2px rgba(40,40,40,0.6);
+    /*1. 2px to the right 2. 2px under the bottom 3. how blurry
+    it should be (low value not much 4. in what distance the blur
+    effect*/
 }
 .button:hover{
     cursor: pointer;
@@ -27,4 +25,6 @@
     background: -moz-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
     background: -webkit-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
     background: -ms-linear-gradient(bottom, #aadddd 0%, #77aaaa 100%);
-}
+}/*
+https://www.cssmatic.com/box-shadow
+*/
