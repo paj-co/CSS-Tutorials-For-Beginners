@@ -1,0 +1,41 @@
+/*//////////////////////////
+// BIKES WEBSITE CSS
+// THE NET NINJA tutorial
+// followed by paj-co
+//////////////////////////*/
+
+body{
+    font-family: arial, helvetica, sans-serif;
+    margin: 0;
+    background: #eee;
+}
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+}
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;/* To get rid of bullet points */
+    padding-right: 10px;
+}
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;/*To have more space between links*/
+}
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;/*To make them more like buttons*/
+}
+#main-navigation a.current{
+    background: #8f746c;
+    border-radius: 4px;
+}
+
